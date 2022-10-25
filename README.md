@@ -1,3 +1,4 @@
+# KAGGLE PROJECT: FORECASTING HOURLY ENERGY CONSUMPTION
 The project demonstrates time series forecasting using a machine learning model XGBoost to predict energy consumption with Python.
 
 'Time-series data' is a sequence of data points, measuring the same thing over time, stored in a specified time order. Time intervals at which data is recorded depends upon the task at hand. Illlustrating few examples brlow which we can relate to time series data:
