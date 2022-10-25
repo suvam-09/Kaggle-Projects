@@ -8,8 +8,8 @@ The project demonstrates time series forecasting using a machine learning model 
 These applications imply time series data is dependent on time, however, the time interval at which data is captured varies depending upon the use cases.
 
 Types of time-series data:
-(a). Univariate time series data: The term 'univariate time series' refers to a time series that consists of single (scalar) observations recorded sequentially over equal time intervals. Say, for example, the temperature pattern follows a univariate time series data.
-(b). Multivariate time series data: As the name suggests, multiple variables are recorded at given time intervals. Say, fo example, open, high, low and closing values in stock market data.
+- Univariate time series data: The term 'univariate time series' refers to a time series that consists of single (scalar) observations recorded sequentially over equal time intervals. Say, for example, the temperature pattern follows a univariate time series data.
+- Multivariate time series data: As the name suggests, multiple variables are recorded at given time intervals. Say, fo example, open, high, low and closing values in stock market data.
 
 Patterns followed by a time-series data:
 - Purely Random Error (no recognisable pattern)
