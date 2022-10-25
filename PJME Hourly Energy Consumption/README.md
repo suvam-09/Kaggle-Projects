@@ -28,15 +28,15 @@ In this project, we would be implementing the XGBoost algorithm to train our mod
 > Herein, we run through the initial phase of our understanding the data and then drawing out the feature based on our dataset. For example, we segregate the hourly timeframe in dataset to build new features such as hours, day of the week, months, years, day of the year, week of the year, etc.
 
 (b). **OUTLIER ANALYSIS**
-Visualizing the graph for the dataset, at certain timeframes, the power consumption values are extremely low compared to the overall dataset. We term these offset values as outliers. Since, such outliers will impact our training model, we follow the outlier removal rule, so as to eliminate these outliers.
+> Visualizing the graph for the dataset, at certain timeframes, the power consumption values are extremely low compared to the overall dataset. We term these offset values as outliers. Since, such outliers will impact our training model, we follow the outlier removal rule, so as to eliminate these outliers.
 
 (c). **FORECASTING HORIZON**
-The forecast horizon is the length of time into the future for which forecasts are to be prepared. These generally vary from short-term forecasting horizons (less than three months) to long-term horizons (more than two years).
+> The forecast horizon is the length of time into the future for which forecasts are to be prepared. These generally vary from short-term forecasting horizons (less than three months) to long-term horizons (more than two years).
 
 (d). **TIME SERIES CROSS VALIDATION**
-In this process, the dataset is divided into (n) number of splits, wherein the model is trained on (n-1) set of data and the evaluation occurs on the remaining set. The procedure starts with randomly splitting the original dataset into (n) number of folds or subsets. In each iteration, the model is trained on the (n-1) subsets of the entire dataset. After that, the model is tested on the (n)th subset to check its performance.
+> In this process, the dataset is divided into (n) number of splits, wherein the model is trained on (n-1) set of data and the evaluation occurs on the remaining set. The procedure starts with randomly splitting the original dataset into (n) number of folds or subsets. In each iteration, the model is trained on the (n-1) subsets of the entire dataset. After that, the model is tested on the (n)th subset to check its performance.
 
-This process is repeated until all of the n-folds have served as the evaluation set. The results of each iteration are averaged, and it's called the cross-validation accuracy. Cross-validation accuracy is used as a performance metric to compare the efficiency of different models. To help visualize, let's assume an example below, say we have 5 folds, so data is split into 5 sets (A, B, C, D, E) and then the procedure follow the cycle as depicted below:
+> This process is repeated until all of the n-folds have served as the evaluation set. The results of each iteration are averaged, and it's called the cross-validation accuracy. Cross-validation accuracy is used as a performance metric to compare the efficiency of different models. To help visualize, let's assume an example below, say we have 5 folds, so data is split into 5 sets (A, B, C, D, E) and then the procedure follow the cycle as depicted below:
 - First iteration: Training set (A, B, C, D), Validation set (E)
 - Second iteration: Training set (E, A, B, C), Validation set (D)
 - Third iteration: Training set (D, E, A, B), Validation set (C)
@@ -44,7 +44,7 @@ This process is repeated until all of the n-folds have served as the evaluation 
 - Fifth iteration: Training set (B, C, D, E), Validation set (A)
 
 (e). **LAG FEATURE** (how far into the future do we want to predict?)
-Herein, we are asking the model to look back in past (say, X days back) and use the target value for that many days in the past as a new feature that we feed into the model.
+> Herein, we are asking the model to look back in past (say, X days back) and use the target value for that many days in the past as a new feature that we feed into the model.
 
 (f). **PREDICTING THE FUTURE**
-Herein in the final step, the model uses the lag features as a new feature for predicting the future values.
+> Herein in the final step, the model uses the lag features as a new feature for predicting the future values.
