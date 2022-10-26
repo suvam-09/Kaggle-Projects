@@ -6,7 +6,7 @@ Few valuable insights as part of Exploratory Data Analysis (EDA) have been share
 2. Significant differences in survival rates summarizes that the guests on the upper decks were provided first preference in terms of access to lifejackets and aboarding the lifeboats, compared to the passengers who were aboard the lower decks.
 3. Percentage of survivors is greater in case of female passengers compared to the male passengers. This summarizes that the female passengers/children were provided preference in terms of access to lifejackets and aboarding the lifeboats, as compared to male passengers.
 
-Post these analyses we go ahead with the usual process as decribed below:
+Post these analyses we proceed with the usual process as summarized below:
 1. Feature Engineering
 2. Handling Outliers
 3. One Hot Encoding (transforming the categorical features to dummy variables)
