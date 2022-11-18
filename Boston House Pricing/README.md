@@ -1,6 +1,7 @@
 # Boston House Price Prediction
 The project highlights an applied usage of machine learning focused on predicting house prices. The dataset used in this project comes from the UCI Machine Learning Repository. This data was collected in 1978 and each of the 506 entries represents aggregate information about 14 features of homes from various suburbs located in Boston. The dataset is available on Kaggle. Our goal is to develop a model that has the capacity of predicting the value of houses.
 
+## Overview
 The features can be summarized as follows:
 - *CRIM*: This is the per capita crime rate by town
 - *ZN*: This is the proportion of residential land zoned for lots larger than 25000 sq.ft.
@@ -23,8 +24,10 @@ Various machine learning models such as Linear Regression, Lasso Regression, Ela
 
 Click here to run the application live on server
 
-## App Features:
+## How the application works:
 - **Step 1**: User needs to input the parameters
 - **Step 2**: These parameters are stored as a dataframe and displayed on the screen
 - **Step 3**: The input paramters are fed to our model which displays the predicted median price
 - **Step 4**: Displaying the plots for feature importance based on SHAP values related to the prediction
+
+## Screenshots:
