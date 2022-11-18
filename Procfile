@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run bh_price_predict_app.py
