@@ -6,7 +6,7 @@ The project highlights a stremalit web application demonstrating the applied usa
 <img src = ".\Images\image_4.jpg">
 
 ## Overview
-The dataset used in this project comes from the UCI Machine Learning Repository. This data was collected in 1978 and each of the 506 entries represents aggregate information about 14 features of homes from various suburbs located in Boston. The dataset is also available on [Kaggle](). The features can be summarized as follows:
+The dataset used in this project comes from the UCI Machine Learning Repository. This data was collected in 1978 and each of the 506 entries represents aggregate information about 14 features of homes from various suburbs located in Boston. The dataset is also available on [Kaggle](https://www.kaggle.com/datasets/jamieleech/boston-housing-dataset). The features can be summarized as follows:
 - **CRIM**: This is the per capita crime rate by town
 - **ZN**: This is the proportion of residential land zoned for lots larger than 25000 sq.ft.
 - **INDUS**: This is the proportion of non-retail business acres per town.
@@ -34,7 +34,7 @@ Below screenshot is the application's basic interface that is viewable to the us
 
 <img src = ".\Images\screenshot_1.PNG">
 
-Once the values have been provided by the user, the application displays the median price value and just below the predicted price section, the application displays a graph visualizing how each of these features correlate with the target variable (i.e. *median price*). If we analyze the screenshot provided below, the red color on the color scale indicates *higher correlation* while the blue color indicates *lower correlation*. Considering the example for **LSTAT** feature, the red color is significant onto the negative side. This means that the median price has a <ins>high negative correlation</ins> with the LSTAT feature. In simple terms, both are *inversely proportional*- this means if we increase the value for LSTAT, it would lead to a significant drop in median price value and vice-versa.
+Once the values have been provided by the user, the application displays the median price value and just below the predicted price section, the application displays a graph visualizing how each of these features correlate with the target variable (i.e. *median price*). If we analyze the screenshot provided below, the red color on the color scale indicates *higher correlation* while the blue color indicates *lower correlation*. Considering the example for **LSTAT** feature, the red color is significant onto the negative side. This means that the median price has a <ins>**high negative correlation**</ins> with the LSTAT feature. In simple terms, both are *inversely proportional*- this means if we increase the value for LSTAT, it would lead to a significant drop in median price value and vice-versa.
 
 <img src = ".\Images\screenshot_2.PNG">
 
