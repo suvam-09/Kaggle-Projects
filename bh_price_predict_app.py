@@ -133,8 +133,8 @@ st.dataframe(df)
 st.write('---')
 
 
-# unpickle the 'xgb_model.pkl' file
-model = pickle.load(open('./Boston House Pricing/xgb_model.pkl', 'rb'))
+# unpickle the 'xgboost_model.pkl' file
+model = pickle.load(open('./Boston House Pricing/xgboost_model.pkl', 'rb'))
 prediction = pd.DataFrame(model.predict(df.values) *
                           1000, index=['Value'], columns=['Median Price (in USD)'])
 
