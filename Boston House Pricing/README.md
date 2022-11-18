@@ -1,7 +1,7 @@
 # Boston House Price Prediction
 The project highlights an applied usage of machine learning focused on predicting house prices.
 
-<img src = ".\Images\image_4.PNG">
+<img src = ".\Images\image_4.jpg">
 
 ### Overview
 The dataset used in this project comes from the UCI Machine Learning Repository. This data was collected in 1978 and each of the 506 entries represents aggregate information about 14 features of homes from various suburbs located in Boston. The dataset is also available on [Kaggle](). The features can be summarized as follows:
