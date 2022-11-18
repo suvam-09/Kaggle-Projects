@@ -1,6 +1,8 @@
 # Boston House Price Prediction
 The project highlights an applied usage of machine learning focused on predicting house prices.
 
+<img src = ".\Images\image_4.PNG">
+
 ### Overview
 The dataset used in this project comes from the UCI Machine Learning Repository. This data was collected in 1978 and each of the 506 entries represents aggregate information about 14 features of homes from various suburbs located in Boston. The dataset is also available on [Kaggle](). The features can be summarized as follows:
 - **CRIM**: This is the per capita crime rate by town
@@ -18,9 +20,11 @@ The dataset used in this project comes from the UCI Machine Learning Repository.
 - **LSTAT**: This is the percentage lower status of the population
 - **MEDV**: This is the median value of owner-occupied homes in $1000s
 
-Our goal is to develop a model that has the capacity of predicting the value of houses. Various machine learning models such as Linear Regression, Lasso Regression, ElasticNet Regression & Xtreme Gradient Boosting Regression have been implemented over the preprocessed data to evaluate the model with the highest accuracy. The accuracy for a model is defined using performance metrics which includes calculating various types of error, the goodness of fit, or some other useful measurement. For this project I have used the *coefficient of determination* (R²) to quantify the model’s performance. The *coefficient of determination* for a model is a useful statistic in regression analysis as it often describes how "good" that model is at making predictions. Please refer below table with regards to the performance metrics for each of the machine learning models that have been implemented in the project:
+The goal is to develop a model that has the capacity of predicting the value of houses (i.e. *MEDV*). Various machine learning models such as Linear Regression, Lasso Regression, ElasticNet Regression & Xtreme Gradient Boosting Regression have been implemented over the preprocessed data to evaluate the model with the highest accuracy. The accuracy for a model is defined using performance metrics which includes calculating various types of error, the goodness of fit, or some other useful measurement. In this project I have considered *coefficient of determination* (R²) to quantify the model’s performance. The *coefficient of determination* for a model is a useful statistic in regression analysis as it often describes how "good" that model is at making predictions. Please refer below table with regards to the performance metrics for each of the machine learning models that have been implemented in the project:
 
 <img src = ".\Images\screenshot_3.PNG">
+
+*model accuracy = R-squared error * 100*
 
 Click here to run the application live on server
 
