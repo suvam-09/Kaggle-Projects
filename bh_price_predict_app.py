@@ -62,7 +62,7 @@ def add_image(cover_image):
     # unsafe_allow_html=False --> to ensure the HTML tags in the body are neither escaped nor treated as mere text
 
 
-add_image('./Boston House Pricing/Images/image_7.jpg')
+add_image('./Boston House Pricing/Images/image_5.jpg')
 
 # ----------------------------------------------------------------------------------------------------------------------------
 
