@@ -26,7 +26,10 @@ The goal is to develop a model that has the capacity of predicting the value of 
 
 <img src = ".\Images\screenshot_3.PNG">
 
+'''diff
+text in red
 *model accuracy = R-squared error * 100*
+'''
 
 ## Screenshots
 
@@ -37,3 +40,6 @@ Below screenshot is the application's basic interface that is viewable to the us
 Once the values have been provided by the user, the application displays the median price value and just below the predicted price section, the application displays a graph visualizing how each of these features correlate with the target variable (i.e. *median price*). If we analyze the screenshot provided below, the red color on the color scale indicates *higher correlation* while the blue color indicates *lower correlation*. Considering the example for *LSTAT* feature, the red color is significant onto the negative side. This means that the median price has a high negative correlation with the LSTAT feature. In simple terms, both are *inversely proportional*- this means if we increase the value for LSTAT, it would lead to a significant drop in median price value and vice-versa.
 
 <img src = ".\Images\screenshot_2.PNG">
+
+## Limitation:
+If a customer wants to predict the future price of the house, it is not possible because there is a risk as the prices of an area increases continuously. So basically the price of a plot of land or a house is a continuous varaible in today's date which makes its challenging to have it forecasted using some machine learning model. So the customers tend to hire a broker or some real estate agent to minimize this error but again, the cost of the entire process increases.
