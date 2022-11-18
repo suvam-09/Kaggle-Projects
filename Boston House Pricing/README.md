@@ -34,7 +34,7 @@ Below screenshot is the application's basic interface that is viewable to the us
 
 <img src = ".\Images\screenshot_1.PNG">
 
-Once the values have been provided by the user, the application displays the median price value and just below the predicted price section, the application displays a graph visualizing how each of these features correlate with the target variable (i.e. *median price*). If we analyze the screenshot provided below, the red color on the color scale indicates *higher correlation* while the blue color indicates *lower correlation*. Considering the example for *LSTAT* feature, the red color is significant onto the negative side. This means that the median price has a *high negative correlation* with the LSTAT feature. In simple terms, both are *inversely proportional*- this means if we increase the value for LSTAT, it would lead to a significant drop in median price value and vice-versa.
+Once the values have been provided by the user, the application displays the median price value and just below the predicted price section, the application displays a graph visualizing how each of these features correlate with the target variable (i.e. *median price*). If we analyze the screenshot provided below, the red color on the color scale indicates *higher correlation* while the blue color indicates *lower correlation*. Considering the example for **LSTAT** feature, the red color is significant onto the negative side. This means that the median price has a <u>high negative correlation</u> with the LSTAT feature. In simple terms, both are *inversely proportional*- this means if we increase the value for LSTAT, it would lead to a significant drop in median price value and vice-versa.
 
 <img src = ".\Images\screenshot_2.PNG">
 
