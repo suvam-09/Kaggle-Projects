@@ -1,9 +1,11 @@
 # Boston House Price Prediction
-The project highlights a stremalit web application demonstrating the applied usage of machine learning focused on predicting house prices. The application's interface allows the users to share their parameters respective to a house or a plot of land as an input based on which the median price for that house or plot of land is calculated and displayed back to the user.
+The project highlights a stremalit web application demonstrating the applied usage of machine learning focused on predicting house prices. The application's interface allows the users to share their parameters respective to a house as an input based on which the median price for that house is calculated and displayed back to the user.
+
+Click [here](https://blink-house-price-predictor.herokuapp.com/) to run the application live on server
 
 <img src = ".\Images\image_4.jpg">
 
-### Overview
+## Overview
 The dataset used in this project comes from the UCI Machine Learning Repository. This data was collected in 1978 and each of the 506 entries represents aggregate information about 14 features of homes from various suburbs located in Boston. The dataset is also available on [Kaggle](). The features can be summarized as follows:
 - **CRIM**: This is the per capita crime rate by town
 - **ZN**: This is the proportion of residential land zoned for lots larger than 25000 sq.ft.
@@ -26,15 +28,7 @@ The goal is to develop a model that has the capacity of predicting the value of 
 
 *model accuracy = R-squared error * 100*
 
-Click here to run the application live on server
-
-### How the application works:
-- **Step 1**: User needs to input the parameters
-- **Step 2**: These parameters are stored as a dataframe and displayed on the screen
-- **Step 3**: The input paramters are fed to our model which displays the predicted median price
-- **Step 4**: Displaying the plots for feature importance based on SHAP values related to the prediction
-
-### Screenshots:
+## Screenshots
 
 Below screenshot is the application's basic interface that is viewable to the users once they are directed to the application. If we observe on the left hand side, there is a sidebar wherein the user can drag the slider either left or right for each of the features. These values serve as an input for the application and the corresponding values are displayed as a dataframe onto the right side of the sidebar.
 
