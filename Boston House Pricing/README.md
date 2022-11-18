@@ -1,5 +1,5 @@
 # Boston House Price Prediction
-The project highlights an applied usage of machine learning focused on predicting house prices.
+The project highlights a stremalit web application demonstrating the applied usage of machine learning focused on predicting house prices. The application's interface allows the users to share their parameters respective to a house or a plot of land as an input based on which the median price for that house or plot of land is calculated and displayed back to the user.
 
 <img src = ".\Images\image_4.jpg">
 
@@ -35,5 +35,11 @@ Click here to run the application live on server
 - **Step 4**: Displaying the plots for feature importance based on SHAP values related to the prediction
 
 ### Screenshots:
+
+Below screenshot is the application's basic interface that is viewable to the users once they are directed to the application. If we observe on the left hand side, there is a sidebar wherein the user can drag the slider either left or right for each of the features. These values serve as an input for the application and the corresponding values are displayed as a dataframe onto the right side of the sidebar.
+
 <img src = ".\Images\screenshot_1.PNG">
+
+Once the values have been provided by the user, the application displays the median price value and just below the predicted price section, the application displays a graph visualizing how each of these features correlate with the target variable (i.e. *median price*). If we analyze the screenshot provided below, the red color on the color scale indicates *higher correlation* while the blue color indicates *lower correlation*. Considering the example for *LSTAT* feature, the red color is significant onto the negative side. This means that the median price has a high negative correlation with the LSTAT feature. In simple terms, both are *inversely proportional*- this means, if we increase the value for LSTAT it would lead to a significant drop in median price value and vice-versa.
+
 <img src = ".\Images\screenshot_2.PNG">
