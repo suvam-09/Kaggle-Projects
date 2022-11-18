@@ -1,7 +1,7 @@
 # Boston House Price Prediction
 The project highlights a stremalit web application demonstrating the applied usage of machine learning focused on predicting house prices. The application's interface allows the users to share their parameters respective to a house as an input based on which the median price for that house is calculated and displayed back to the user.
 
-<<**Click [here](https://blink-house-price-predictor.herokuapp.com/) to run the application live on server**>>
+<< **Click [here](https://blink-house-price-predictor.herokuapp.com/) to run the application live on server** >>
 
 <img src = ".\Images\image_4.jpg">
 
