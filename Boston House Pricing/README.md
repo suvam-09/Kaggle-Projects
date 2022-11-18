@@ -30,7 +30,7 @@ The goal is to develop a model that has the capacity of predicting the value of 
 
 ## Screenshots
 
-Below screenshot is the application's basic interface that is viewable to the users once they are directed to the application. If we observe on the left hand side, there is a sidebar wherein the user can drag the slider either left or right for each of the features. These values serve as an input for the application and the corresponding values are displayed as a dataframe onto the right side of the sidebar.
+Below screenshot is the application's basic interface that is viewable to the users once they are directed to the application. If we observe on the left hand side, there is a sidebar wherein the user can drag the slider either left or right for each of the features. These values serve as an input for the application and the corresponding values are displayed as a dataframe onto the right side of the sidebar. By default, the slider is set at the mean value for each of the features. So whenever the application is reloaded, the slider will point to the mean value unless the user drags the slider to his/her left or right.
 
 <img src = ".\Images\screenshot_1.PNG">
 
