@@ -26,7 +26,7 @@ The goal is to develop a model that has the capacity of predicting the price of 
 
 <img src = ".\Images\screenshot_3.PNG">
 
--> *model accuracy = R-squared error * 100*
+** (**model accuracy = R-squared error * 100**)
 
 ## Screenshots
 
@@ -35,8 +35,7 @@ The goal is to develop a model that has the capacity of predicting the price of 
 <img src = ".\Images\screenshot_1.PNG">
 
 - Below screenshot illustrates the feature importance plot denoting the correlation for each of these features against the median pricing. Once the values have been provided by the user, the application displays the median price value based on the trained model. Underneath the predicted price section, the application displays a graph visualizing how each of these features correlate with the target variable (i.e. *median price*). The red color on the color scale indicates *higher correlation* while the blue color indicates *lower correlation*.
-
--- Considering the example for **LSTAT** feature, the red color is significant onto the negative side. This means that the median price has a <ins>high negative correlation</ins> with the LSTAT feature. In simple terms, both are *inversely proportional*- this means if we increase the value for LSTAT, it would lead to a significant drop in median price value and vice-versa.*
+> *Considering the example for **LSTAT** feature, the red color is significant onto the negative side of the scale. This indicates that the LSTAT feature has a greater negative effect compared to positive effect in predicting the median price. In simple terms, both are inversely proportional to each other which means that **an increase in the LSTAT value would lead to a large significant drop in median price value and vice-versa**. While for **RM** feature which denotes average number of rooms, the red color is significant towards the positive side of the scale. This implies that the RM feature has a greater positive effect compared to negative effect in predicting the median price. So **an increase in the value for RM would lead to a significant increase in median price value and vice-versa***.
 
 <img src = ".\Images\screenshot_2.PNG">
 
