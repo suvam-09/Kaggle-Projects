@@ -40,4 +40,4 @@ The goal is to develop a model that has the capacity of predicting the price of 
 <img src = ".\Images\screenshot_2.PNG">
 
 ## Limitation:
-It is not possible if a customer wants to predict the future price of the house because there is a risk as the prices of an area increases continuously. So basically the price of a plot of land or a house is a continuous varaible in today's date which makes its challenging to have it forecasted using some machine learning model. So the customers tend to hire a broker or some real estate agent to minimize this error but again, the cost of the entire process increases.
+It is not possible if a customer wants to predict the future price of the house because there is a risk as the prices of an area increases continuously. So basically the price of a plot of land or a house is a continuous variable in today's date which makes its challenging to have it forecasted using some machine learning model. So the customers tend to hire a broker or some real estate agent to minimize this error but again, the cost of the entire process increases.
