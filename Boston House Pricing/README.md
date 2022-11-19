@@ -1,7 +1,7 @@
 # Boston House Price Prediction
 The project highlights a streamlit web application demonstrating the applied usage of machine learning focused on predicting house prices. The user interface allows the users to enter the values for features of a house as an input based on which the median price is calculated and displayed back to the user.
 
->> **Click [here](https://blink-house-price-predictor.herokuapp.com/) to run the application live on server**
+-> **Click [here](https://blink-house-price-predictor.herokuapp.com/) to run the application live on server**
 
 <img src = ".\Images\image_4.jpg">
 
@@ -26,7 +26,7 @@ The goal is to develop a model that has the capacity of predicting the price of 
 
 <img src = ".\Images\screenshot_3.PNG">
 
->> *model accuracy = R-squared error * 100*
+-> *model accuracy = R-squared error * 100*
 
 ## Screenshots
 
@@ -35,7 +35,8 @@ The goal is to develop a model that has the capacity of predicting the price of 
 <img src = ".\Images\screenshot_1.PNG">
 
 - Below screenshot illustrates the feature importance plot denoting the correlation for each of these features against the median pricing. Once the values have been provided by the user, the application displays the median price value based on the trained model. Underneath the predicted price section, the application displays a graph visualizing how each of these features correlate with the target variable (i.e. *median price*). The red color on the color scale indicates *higher correlation* while the blue color indicates *lower correlation*.
-> Considering the example for **LSTAT** feature, the red color is significant onto the negative side. This means that the median price has a <ins>high negative correlation</ins> with the LSTAT feature. In simple terms, both are *inversely proportional*- this means if we increase the value for LSTAT, it would lead to a significant drop in median price value and vice-versa.
+
+        Considering the example for **LSTAT** feature, the red color is significant onto the negative side. This means that the median price has a <ins>high negative correlation</ins> with the LSTAT feature. In simple terms, both are *inversely proportional*- this means if we increase the value for LSTAT, it would lead to a significant drop in median price value and vice-versa.*
 
 <img src = ".\Images\screenshot_2.PNG">
 
