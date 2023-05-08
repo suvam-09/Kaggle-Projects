@@ -1,4 +1,4 @@
-# KAGGLE PROJECT: FORECASTING HOURLY ENERGY CONSUMPTION
+# FORECASTING HOURLY ENERGY CONSUMPTION
 The project demonstrates time series forecasting using a machine learning model XGBoost to predict energy consumption with Python.
 
 '**Time-series data**' is a sequence of data points, measuring the same thing over time, stored in a specified time order. Time intervals at which data is recorded depends upon the task at hand. Illlustrating few examples brlow which we can relate to time series data:
@@ -43,8 +43,8 @@ This process is repeated until all of the n-folds have served as the evaluation 
 - Fourth iteration: Training set (C, D, E, A), Validation set (B)
 - Fifth iteration: Training set (B, C, D, E), Validation set (A)
 
-(e). **LAG FEATURE** (how far into the future do we want to predict?)
-> Herein, we are asking the model to look back in past (say, X days back) and use the target value for that many days in the past as a new feature that we feed into the model.
+(e). **LAG FEATURE**: (how far into the future do we want to predict?) - 
+Herein, we are asking the model to look back in past (say, X days back) and use the target value for that many days in the past as a new feature that we feed into the model.
 
-(f). **PREDICTING THE FUTURE**
-> Herein in the final step, the model uses the lag features as a new feature for predicting the future values.
+(f). **PREDICTING THE FUTURE**:
+Herein in the final step, the model uses the lag features as a new feature for predicting the future values.
