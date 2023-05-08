@@ -5,7 +5,7 @@ The project highlights a streamlit web application demonstrating the applied usa
 
 <img src = ".\Images\image_4.jpg">
 
-## OVERVIEW
+### OVERVIEW
 The dataset used in this project comes from the UCI Machine Learning Repository. This data was collected in 1978 and each of the 506 entries represents aggregate information about 14 features of homes from various suburbs located in Boston. The dataset is also available on [Kaggle](https://www.kaggle.com/datasets/jamieleech/boston-housing-dataset). The features can be summarized as follows:
 - **CRIM**: This denotes the per capita crime rate by town
 - **ZN**: This denotes the proportion of residential land zoned for lots larger than 25000 sq.ft.
@@ -28,7 +28,7 @@ The goal is to develop a model that has the capacity of predicting the price of 
 
 ** (**model accuracy = R-squared error * 100**)
 
-## SCREENSHOTS
+### SCREENSHOTS
 
 - Below screenshot illustrates the application's basic interface that is viewable to the users once they are directed to the application. If we observe on the left hand side, there is a sidebar wherein the user can drag the slider either left or right for each of the features. These values serve as an input for the application and the corresponding values are displayed as a dataframe over the right side of the sidebar. By default, the slider is set at the *mean value* for each of the features. So whenever we hit the link for the application (or) the application is reloaded, the slider will point to the mean value unless the user modifies the values by dragging the slider to left or right.
 
@@ -39,5 +39,5 @@ The goal is to develop a model that has the capacity of predicting the price of 
 
 <img src = ".\Images\screenshot_2.PNG">
 
-## LIMITATION:
+### LIMITATION:
 It is not possible if a customer wants to predict the future price of the house because there is a risk as the prices of an area increases continuously. So basically the price of a plot of land or a house is a continuous variable in today's date which makes its challenging to have it forecasted using some machine learning model. So the customers tend to hire a broker or some real estate agent to minimize this error but again, the cost of the entire process increases.
