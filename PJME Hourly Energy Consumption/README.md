@@ -47,9 +47,9 @@ This process is repeated until all of the n-folds have served as the evaluation 
 👉After all 5 iterations, you will have 5 performance scores (e.g., accuracy, mean squared error, etc.) for each of the 5 test sets. These scores can be averaged to obtain a single performance metric for the model.
 
 What's so great about this method?🤔
-🔹 Reduced Overfitting: Training and testing on different subsets ensure our model generalizes well, reducing the risk of overfitting.
-🔹 Reliable Performance Estimation: It provides a more accurate gauge of how our model will perform on unseen data.
-🔹 Model Selection: It's a fantastic way to compare models or hyperparameters and select the best performer.
+- Reduced Overfitting: Training and testing on different subsets ensure our model generalizes well, reducing the risk of overfitting.
+- Reliable Performance Estimation: It provides a more accurate gauge of how our model will perform on unseen data.
+- Model Selection: It's a fantastic way to compare models or hyperparameters and select the best performer.
 
 ![image](https://github.com/suvam-09/Kaggle-Projects/assets/116247988/126c2566-1b64-4ae7-a0be-3eefe15e4c25)
 
