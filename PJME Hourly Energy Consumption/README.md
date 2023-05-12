@@ -36,12 +36,22 @@ The forecast horizon is the length of time into the future for which forecasts a
 (d). **TIME SERIES CROSS VALIDATION**:
 In this process, the dataset is divided into (n) number of splits, wherein the model is trained on (n-1) set of data and the evaluation occurs on the remaining set. The procedure starts with randomly splitting the original dataset into (n) number of folds or subsets. In each iteration, the model is trained on the (n-1) subsets of the entire dataset. After that, the model is tested on the (n)th subset to check its performance.
 
-This process is repeated until all of the n-folds have served as the evaluation set. The results of each iteration are averaged, and it's called the cross-validation accuracy. Cross-validation accuracy is used as a performance metric to compare the efficiency of different models. To help visualize, let's assume an example below, say we have 5 folds, so data is split into 5 sets (A, B, C, D, E) and then the procedure follow the cycle as depicted below:
-- First iteration: Training set (A, B, C, D), Validation set (E)
-- Second iteration: Training set (E, A, B, C), Validation set (D)
-- Third iteration: Training set (D, E, A, B), Validation set (C)
-- Fourth iteration: Training set (C, D, E, A), Validation set (B)
-- Fifth iteration: Training set (B, C, D, E), Validation set (A)
+This process is repeated until all of the n-folds have served as the evaluation set. The results of each iteration are averaged, and it's called the cross-validation accuracy. Cross-validation accuracy is used as a performance metric to compare the efficiency of different models. To help visualize, let's assume an example below, say we have 5 folds and the dataset is split into 5 equal-sized folds. The process then proceeds as follows:
+
+👉In the first iteration, Fold 1 is used as the test set, while Folds 2, 3, 4, and 5 are used as the training set. The model is trained on the combined training set, and its performance is evaluated on the test set (Fold 1).
+
+👉In the second iteration, Fold 2 is used as the test set, while Folds 1, 3, 4, and 5 are used as the training set. The model is trained on the new combined training set, and its performance is evaluated on the new test set (Fold 2).
+
+👉The process is repeated for each of the remaining folds (Folds 3, 4, and 5), with each fold taking its turn as the test set.
+
+👉After all 5 iterations, you will have 5 performance scores (e.g., accuracy, mean squared error, etc.) for each of the 5 test sets. These scores can be averaged to obtain a single performance metric for the model.
+
+What's so great about this method?🤔
+🔹 Reduced Overfitting: Training and testing on different subsets ensure our model generalizes well, reducing the risk of overfitting.
+🔹 Reliable Performance Estimation: It provides a more accurate gauge of how our model will perform on unseen data.
+🔹 Model Selection: It's a fantastic way to compare models or hyperparameters and select the best performer.
+
+![image](https://github.com/suvam-09/Kaggle-Projects/assets/116247988/126c2566-1b64-4ae7-a0be-3eefe15e4c25)
 
 (e). **LAG FEATURE**: (how far into the future do we want to predict?) - 
 Herein, we are asking the model to look back in past (say, X days back) and use the target value for that many days in the past as a new feature that we feed into the model.
